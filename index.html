@@ -4,9 +4,87 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/eb8c289520.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>UI kit</title>
 </head>
 <body>
-  
+  <div style="display: flex; justify-content: center;">
+    <h1>UI Kit</h1>
+  </div>
+  <div style="display: grid;  grid-template-columns: repeat(3, 1fr); gap: 10px; grid-auto-rows: minmax(50px, auto);">
+    <div style="grid-column: 1 / 3;grid-row: 1;">
+      <h4 style="text-align: center;">Headers</h4>
+      <h1>One of the most important techniques</h1>
+      <h2>One of the most important techniques</h2>
+      <h3>One of the most important techniques</h3>
+      <h4>One of the most important techniques</h4>
+      <h5>One of the most important techniques</h5>
+      <h6>One of the most important techniques</h6>
+    </div>
+    <div style="grid-column: 3;grid-row: 1;">
+      <h4 style="text-align: center;">Text</h4>
+      <h6 style="margin: 0;">Paragraphes:</h6>
+      <p>Designing a user interface differs from designing an ebook or blog theme, although the principles of type-centric design still apply technology has evolved a lot, so here are 8 rules for better typography in UI.</p>
+      <p>Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.</p>
+      <h6 style="margin: 0;">Quote:</h6>
+      <blockquote>"CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives."</blockquote>
+      <h6 style="margin: 0;">Small text:</h6>
+      <small>The intrinsic size contributions of the track may be adjusted to the size of the grid container and increase the final size of the track by the minimum amount that would result in honoring the percentage.</small>
+    </div>
+    <div style="grid-column: 1/4;grid-row: 2;">
+      <h4 style="text-align: center; margin-top: 0;">Buttons</h4>
+      <h6 style="margin: 0;">Squared:</h6>
+      <button class="btn lg">Primary</button>
+      <button class="btn">Primary</button>
+      <button class="btn sm">Primary</button>
+      <button class="btn warning">Warning</button>
+      <button class="btn danger">Danger</button>
+      <button class="btn success">Success</button>
+      <button class="btn info">Info</button>
+    </div>
+    <div style="grid-column: 1/4;grid-row: 3;">
+      <h6 style="margin: 0;">Rounded:</h6>
+      <button class="btn lg round">Primary</button>
+      <button class="btn round">Primary</button>
+      <button class="btn sm round">Primary</button>
+      <button class="btn warning round">Warning</button>
+      <button class="btn danger round">Danger</button>
+      <button class="btn success round">Success</button>
+      <button class="btn info round">Info</button>
+    </div>
+    <div style="grid-column: 1/4;grid-row: 4;">
+      <h6 style="margin: 0;">Outline squared:</h6>
+      <button class="btn outline-primary">Primary</button>
+      <button class="btn outline-warning">Warning</button>
+      <button class="btn outline-danger">Danger</button>
+      <button class="btn outline-success">Success</button>
+      <button class="btn outline-info">Info</button>
+    </div>
+    <div style="grid-column: 1/4;grid-row: 5;">
+      <h6 style="margin: 0;">Outline rounded:</h6>
+      <button class="btn outline-primary round">Primary</button>
+      <button class="btn outline-warning round">Warning</button>
+      <button class="btn outline-danger round">Danger</button>
+      <button class="btn outline-success round">Success</button>
+      <button class="btn outline-info round">Info</button>
+    </div>
+    <div style="grid-column: 1/4;grid-row: 6;">
+      <h4 style="text-align: center;">Iconography</h4>
+      <div style="display: flex; justify-content: space-around;">
+        <i class="fas fa-arrows-alt-v"></i>
+        <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-address-card"></i>
+        <i class="far fa-bell"></i>
+        <i class="fas fa-video"></i>
+        <i class="fas fa-video-slash"></i>
+        <i class="fas fa-microphone-alt"></i>
+        <i class="fas fa-microphone-alt-slash"></i>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
