@@ -1,0 +1,65 @@
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/*                  Colors                  */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.primary {
+  background-color: #AAC8E2;
+}
+.text-primary {
+  background-color: #AAC8E2;
+}
+
+.primary-light {
+  background-color: #B2CEE6;
+}
+.text-primary-light {
+  background-color: #B2CEE6;
+}
+
+.primary-lighter {
+  background-color: #BBD4EA;
+}
+.text-primary-lighter {
+  background-color: #BBD4EA;
+}
+
+.secondary {
+  background-color: #D89BBC;
+}
+.text-secondary {
+  background-color: #D89BBC;
+}
+
+.tertiary {
+  background-color: #C0DDA2;
+}
+.text-tertiary {
+  background-color: #C0DDA2;
+}
+
+.grey {
+  background-color: #999999;
+}
+.text-grey {
+  background-color: #999999;
+}
+
+.grey-dark {
+  background-color: #808080;
+}
+.text-grey-dark {
+  background-color: #808080;
+}
+
+.grey-light {
+  background-color: #CCCCCC;
+}
+.text-grey-light {
+  background-color: #CCCCCC;
+}
+
+.grey-lighter {
+  background-color: #E6E6E6;
+}
+.text-grey-lighter {
+  background-color: #E6E6E6;
+}
